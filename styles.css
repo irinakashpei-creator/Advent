@@ -1133,7 +1133,7 @@ img {
     }
     
     .main-title {
-        font-size: clamp(1.8rem, 6vw, 2.8rem);
+        font-size: clamp(2.2rem, 7vw, 3.2rem);
     }
     
     .hero-subtitle {
@@ -1169,10 +1169,13 @@ img {
         flex-direction: row;
         align-items: center;
         gap: 8px;
+        font-size: clamp(1rem, 2.2vw, 1.1rem);
+        white-space: nowrap;
+        flex-wrap: nowrap;
     }
     
     .date-info-separator {
-        display: none;
+        display: inline;
     }
     
     .hero-button-wrapper,
@@ -1181,9 +1184,9 @@ img {
     }
     
     .hero-cta-button {
-        padding: 16px 35px;
-        padding-right: 50px;
-        font-size: 1rem;
+        padding: 14px 28px;
+        padding-right: 45px;
+        font-size: 0.95rem;
         width: 100%;
     }
     
@@ -1195,11 +1198,11 @@ img {
     }
     
     .price-number {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
     
     .price-currency {
-        font-size: 0.6rem;
+        font-size: 0.7rem;
     }
     
     .questions-section {
@@ -1285,9 +1288,9 @@ img {
     }
     
     .hero-cta-button {
-        padding: 16px 30px;
-        padding-right: 45px;
-        font-size: 1rem;
+        padding: 13px 25px;
+        padding-right: 40px;
+        font-size: 0.9rem;
         width: 100%;
         max-width: 100%;
     }
@@ -1300,11 +1303,11 @@ img {
     }
     
     .price-number {
-        font-size: 1.1rem;
+        font-size: 1.3rem;
     }
     
     .price-currency {
-        font-size: 0.55rem;
+        font-size: 0.65rem;
     }
     
     .questions-section {
@@ -1351,7 +1354,7 @@ img {
     }
     
     .main-title {
-        font-size: clamp(1.6rem, 6vw, 2.4rem);
+        font-size: clamp(2rem, 7vw, 3rem);
     }
     
     .hero-subtitle {
@@ -1396,9 +1399,14 @@ img {
     }
     
     .date-info {
-        font-size: 0.8rem;
-        flex-wrap: wrap;
+        font-size: clamp(0.9rem, 2.2vw, 1rem);
+        flex-wrap: nowrap;
         gap: 6px;
+        white-space: nowrap;
+    }
+    
+    .date-info-separator {
+        display: inline;
     }
 }
 
